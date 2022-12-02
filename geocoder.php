@@ -71,14 +71,14 @@ function geocode($address){
              
             array_push(
                 $data_arr, 
-                    $lati, 					//0
-                    $longi, 				//1
+                    $lati, 			//0
+                    $longi, 			//1
                     $formatted_address,		//2
                     $street_address,		//3
-                    $city,					//4
-                    $state,					//5
-                    $zip,					//6
-                    $score					//7
+                    $city,			//4
+                    $state,			//5
+                    $zip,			//6
+                    $score			//7
                 );
              
             return $data_arr;
