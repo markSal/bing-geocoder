@@ -37,7 +37,7 @@ function geocode($address){
 	// Get geocoder response
 	$resp_json = file_get_content_curl($url);
 
-	// Decode response to JSON
+	// Decode JSON response data
 	$resp = json_decode($resp_json, true);
  
 		// Check for successful geocoder response
